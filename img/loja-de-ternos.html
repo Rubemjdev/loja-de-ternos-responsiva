@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>loja-de-ternos</title>
+        <link rel="stylesheet" href="loja-de-ternos_arquivos/main.css">
+    </head>
+    <body>
+        <header>
+            <h1 class="container-menu">
+                Comercial D&amp; Ternos
+            </h1>
+            <nav class="container-menu">
+                <a href="#sobre-a-loja">Sobre a loja</a>
+                <a href="#produtos">Produtos</a>
+            </nav>
+        </header>
+        <div class="container">
+            <section class="sobre-a-loja">
+                <img src="loja-de-ternos_arquivos/terno-titulo.jpg" alt="imagem-da-loja-de-ternos">
+                <div class="loja-descricao">
+                    <h2 id="sobre-a-loja">Sobre a loja</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur 
+adipisicing elit. Ab, quam! Inventore adipisci et nihil ipsa incidunt 
+eius voluptatum labore autem. Illo facere laborum, omnis eius impedit 
+necessitatibus. Ex, doloremque facere?</p>
+                </div>
+            </section>
+            <h2 class="container" id="produtos">Produtos</h2>
+            <div class="produtos">
+                <div class="imagem-terno">
+                    <img src="loja-de-ternos_arquivos/terno1.jpg" alt="foto-de-terno">
+                    <h3>Terno Gray d&amp; Terno</h3>
+                    <div class="descricao">
+                        <p>terno tamanho p, bonito e veste bem, para ocasiões especiais.</p>
+                    </div>
+                        <form>
+                        <button type="submit">Adicionar ao carrinho</button>
+                    </form>
+                </div>
+                
+                <div class="imagem-terno">
+                    <img src="loja-de-ternos_arquivos/terno2.jpg" alt="foto-de-terno">
+                    <h3>Terno Creme d&amp; Terno</h3>
+                    <div class="descricao">
+                        <p>terno tamanho p, bonito e veste bem, para ocasiões especiais.</p>
+                    </div>
+                    <form>
+                        <button type="submit">Adicionar ao carrinho</button>
+                    </form>
+                </div>
+                
+                <div class="imagem-terno">
+                    <img src="loja-de-ternos_arquivos/terno3.jpg" alt="foto-de-terno">
+                    <h3>Terno Black d&amp; Terno</h3>
+                    <div class="descricao">
+                        <p>terno tamanho p, bonito e veste bem, para ocasiões especiais.</p>
+                    </div>
+                    <form>
+                        <button type="submit">Adicionar ao carrinho</button>
+                    </form>
+                </div>
+                
+                <div class="imagem-terno">
+                    <img src="loja-de-ternos_arquivos/terno4.jpg" alt="foto-de-terno">
+                    <h3>Terno Marrom d&amp; Terno</h3>
+                    <div class="descricao">
+                        <p>terno tamanho p, bonito e veste bem, para ocasiões especiais.</p>
+                    </div>
+                    <form>
+                        <button type="submit">Adicionar ao carrinho</button>
+                    </form>
+                </div>
+                
+            </div>
+        </div>
+
+    <!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body></html>
